@@ -1,17 +1,17 @@
 
 package bakeshopsystem;
 
-import UI.LoginFrame;
+import UI.Welcome;
 
 public class BakeShopSystem {
 
 
     public static void main(String[] args) {
         
-        LoginFrame LoginFrame = new LoginFrame();
-        LoginFrame.setVisible(true);
-        LoginFrame.pack();
-        LoginFrame.setLocationRelativeTo(null);
+        Welcome WelcomePage = new Welcome();
+        WelcomePage.setVisible(true);
+        WelcomePage.pack();
+        WelcomePage.setLocationRelativeTo(null);
         
         
     }
